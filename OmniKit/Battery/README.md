@@ -26,6 +26,11 @@ During the re-charging expiriment:
 - PoE adapter 48V 1.5A and 12V2A DC power charger (**together**).
 - Solar Panel
 
+## Overheating issue
+
+When testing we found out the power board is overheating to a concerning level, we replaced a resistor to limit the current flow from 3A to 2A.
+this solved the overheating issue.
+
 ## Expiriment results
 
 None
