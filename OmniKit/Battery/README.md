@@ -38,12 +38,17 @@ Battery Discharging time is roughly 16.5 hours, the capacity seems a little off 
 ![Battery discharging voltage](images/voltage_discharging_graph.png)
 ![Battery discharging capacity](images/capacity_discharging_graph.png)
 
+Charging from 0 to 100 using 12V2A DC Power adapter took roughly 3 hours, important to note that the battery charging takes 2A and the CM4 board consumes roughly 400mA so a 3A adapter could probably charge faster.
+
+![Battery discharging voltage](images/voltage_dc_charging_graph.png)
+![Battery discharging capacity](images/capacity_dc_charging_graph.png)
+
 ## Expiriments TODO:
 
 - [x] Drain batteries from 100 to 0 in normal mode
 - [ ] Drain batteries from 100 to 0 in deep sleep mode 
-- [ ] Re-charge the batteries using 12V2A DC power charger
+- [x] Re-charge the batteries using 12V2A DC power charger
 - [ ] Re-charge the batteries using PoE 48V1.5A 
-- [ ] Re-charge the batteries using DC adapter + PoE
+- [ ] Re-charge the batteries using 12V2A DC power + PoE
 - [ ] Connect to solar panel, check drainage vs charging stats
 
