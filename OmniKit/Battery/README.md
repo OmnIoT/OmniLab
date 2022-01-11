@@ -29,15 +29,18 @@ During the re-charging expiriment:
 ## Overheating issue
 
 When testing we found out the power board is overheating to a concerning level, we replaced a resistor to limit the current flow from 3A to 2A.
-this solved the overheating issue.
+this solved the overheating issue. No current overheating issues are known.
 
 ## Expiriment results
 
-None
+* Battery Discharging time is roughly 16.5 hours, the capacity seems a little off but it gets better over time when charging and discharging the battery.
+
+![Battery discharging voltage](images/voltage_discharging_graph.png)
+![Battery discharging capacity](capacity_discharging_graph.png)
 
 ## Expiriments TODO:
 
-- [ ] Drain batteries from 100 to 0 in normal mode
+- [x] Drain batteries from 100 to 0 in normal mode
 - [ ] Drain batteries from 100 to 0 in deep sleep mode 
 - [ ] Re-charge the batteries using 12V2A DC power charger
 - [ ] Re-charge the batteries using PoE 48V1.5A 
