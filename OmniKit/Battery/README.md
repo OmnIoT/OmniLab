@@ -33,7 +33,7 @@ this solved the overheating issue. No current overheating issues are known.
 
 ## Expiriment results
 
-* Battery Discharging time is roughly 16.5 hours, the capacity seems a little off but it gets better over time when charging and discharging the battery.
+Battery Discharging time is roughly 16.5 hours, the capacity seems a little off but it gets better over time when charging and discharging the battery.
 
 ![Battery discharging voltage](images/voltage_discharging_graph.png)
 ![Battery discharging capacity](images/capacity_discharging_graph.png)
